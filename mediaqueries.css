@@ -143,4 +143,20 @@ footer p{
  #experience{
     height: 120vh;
  }
+     #contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   margin: 0;
+   gap: 0;
+   }
+ .contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    width: 50vw;
+    gap: 0;
+ }
 }
