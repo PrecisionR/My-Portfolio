@@ -1,0 +1,139 @@
+@media screen and (max-width:1200px){
+    #desktop-nav{
+        display: none;
+    }
+    #hamburger-nav{
+        display: flex;
+    }
+    .arrow{
+        display: none;
+    }
+    .container-profile{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin: 0;
+        margin-top: 12rem;
+        margin-bottom: 40rem;
+    }
+    #profile{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    gap: 0;
+    padding-top: 0;
+    }
+    #profile img{
+        width: 50%;
+        
+    }
+    #socials-container .icon{
+       width: 10%;
+    }
+    .section__pic-container{
+        justify-content: center;
+        height: 150px;
+        margin: 2rem;
+    }
+    .container-profile .arrow{
+     position: static;
+     align-self: center;
+    
+    }
+    #about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        margin-bottom: 60rem;
+    }
+    .about-containers{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .details-container{
+        width: 100%;
+    }
+    #about .arrow{
+        position: static;
+    }
+    .text-container{
+        padding-left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+   .about-details-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   #experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30rem;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 25rem;
+   }
+   #experience .arrow{
+    position: static;
+   }
+  .ac1 .details-container{
+    width: 80%;
+   }
+
+
+   #projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30rem;
+   }
+   .projects-container{
+    display: flex;
+    flex-direction: column;
+  
+   }
+   .projects-cards{
+    width: 80vw;
+    
+   }
+   #contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   margin: 0;
+   gap: 0;
+   }
+   .contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    width: 50vw;
+    gap: 0;
+   }
+   .contact a{
+    padding-top: 1rem;
+    font-size: 1rem;
+}
+footer p a{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1rem;
+}
+footer p{
+    font-size: .7rem;
+}
+}
