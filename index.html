@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="mediaqueries.css" />   
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">     
+    </head>
+    <body>
+        <nav id="desktop-nav">
+            <div class="logo">AMITESH PANDEY</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="logo">AMITESH PANDEY</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                   <span></span>
+                   <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </div>
+            </div>
+        </nav>
+        <div class="container-profile">
+        <section id="profile">
+            <div class="section__pic-container">
+                <img src="profile-pic.png" alt="">
+            </div>
+            <div class="section__text">
+                <p class="section__text__p1">Hello, I'm</p>
+                <h1 class="title">Amitesh Pandey</h1>
+                <p class="section__text__p2">Frontend Developer</p>
+                <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('cv.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='#contact'">Contact Me</button>
+                </div>
+                <div id="socials-container">
+                      <img src="linkedin.png" alt="" class="icon" onclick="location.href='https://www.linkedin.com/in/amitesh-pandey-242731214/'">
+                      <img src="github.png" alt="" class="icon" onclick="location.href='https://github.com/PrecisionR'">
+                </div>
+        </div>
+        
+        </section>
+        <img src="arrow.png" alt="" class="icon arrow" onclick="location.href='#about'">
+    </div>
+        <section id="about">
+            <p class="section__text__p1">Get To Know More</p>
+            <h1 class="title">About Me</h1>
+            <div class="section-container">
+                
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="experience.png" alt="" class="icon">
+                            <h3>Experience</h3>
+                            <p>Fresher-Frontend Development<br>
+                                LetsGrowMore | February-2022 - March-2022 <br>
+                                The Sparks Foundation | September-2021 - October-2021</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="education.png" alt="" class="icon">
+                            <h3>Education</h3>
+                            <p>B.Tech - Raj Kumar Goel Institute of Technology(2018-2022)<br>
+                                ISC Board - Little Flower School(2016-2017)<br>
+                                ICSE Board - Little Flower School(2014-2015)</p>
+                        </div>
+                    </div>
+                    <div class="text-container"><p>A front-end developer with entry-level experience specializing in web development, UI design, and HTML.
+                         Adept at identifying opportunities to enhance front-end design and improve the UX.
+                        I aim to be able to find an exciting and challenging
+                        entry level position in the Information and
+                        Technology industry alongside a company who will
+                        continuously motivate and drive me to do my best
+                        and improve on my skills and abilities in order to be
+                        able to assist the company in achieving company's
+                        mission and future goals.</p></div>
+                </div>
+            </div>
+            <img src="arrow.png" alt="" class="icon arrow" onclick="location.href='#experience'">
+        </section>
+        <section id="experience">
+            <p class="section__text__p1">Explore My</p>
+            <h1 class="title">Skills</h1>
+            <div class="experience-details-container">
+                <div class="about-containers ac1">
+                    <div class="details-container dc1">
+                        <h2 class="experience-sub-title">Frontend Development</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="checkmark.png" alt="" class="icon">
+                                <div>
+                                    <h3>HTML</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="checkmark.png" alt="" class="icon">
+                                <div>
+                                    <h3>CSS</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="checkmark.png" alt="" class="icon">
+                                <div>
+                                    <h3>JAVASCRIPT</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="checkmark.png" alt="" class="icon">
+                                <div>
+                                    <h3>BOOTSTRAP</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="checkmark.png" alt="" class="icon">
+                                <div>
+                                    <h3>GSAP</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="checkmark.png" alt="" class="icon">
+                                <div>
+                                    <h3>JQUERY</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="details-container dc2">
+                        <h2 class="experience-sub-title">Backend Development</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="checkmark.png" alt="" class="icon">
+                                <div>
+                                    <h3>NODE JS</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="checkmark.png" alt="" class="icon">
+                                <div>
+                                    <h3>EXPRESS JS</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="checkmark.png" alt="" class="icon">
+                                <div>
+                                    <h3>JAVA</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="checkmark.png" alt="" class="icon">
+                                <div>
+                                    <h3>C++</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="checkmark.png" alt="" class="icon">
+                                <div>
+                                    <h3>PYTHON</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="arrow.png" alt="" class="icon arrow" onclick="location.href='#projects'">
+        </section>
+        <section id="projects">
+            <p class="section__text__p1">Explore My</p>
+            <h1 class="title">Projects</h1>
+            <div class="projects-container">
+                <div class="projects-cards pc1" onclick="location.href='https://precisionr.github.io/Sidcupgolf-website-clone/'"><div class="overlay"><h4>Sidcup Golf</h4><p>This is london's Sidcup Golf Website that i have made using HTML,CSS and Javascript.
+                    While making this challenging website i have made extensive use of GSAP libraries to bring a nice UI finish to the website.</p></div></div>
+                <div class="projects-cards pc2" onclick="location.href='https://precisionr.github.io/Magma-duplicate/'"><div class="overlay"><h4>Magma DTT</h4><p>This Website has been made with the extensiveuse of Canvas and locomotive JS libraries to Bring 
+                    amazing scroll based animations to the user giving an overwhelmingly good UX.</p></div></div>
+                <div class="projects-cards pc3" onclick="location.href='https://precisionr.github.io/TheSniffler/'"><div class="overlay"><h4>The Sniffler</h4><p>This is one of my first projects ever.This website has been made with the use of 
+                    BOOTSTRAP css library and give a responsive web layout that remains consistent.</p></div></div>
+            </div>
+            <img src="arrow.png" alt="" class="icon arrow" onclick="location.href='#contact'">
+        </section>
+        <section id="contact">
+            <p class="section__text__p1">Get In</p>
+            <h1 class="title">Contact</h1>
+            <div class="contact-container">
+                <div class="contact"><img src="email.png" alt="" class="icon"><a href="'mailto:amitesh22121999@gmail.com?subject=Me&body=Hello!'">amitesh22121999@gmail.com</a></div>
+                <div class="contact"><img src="linkedin.png" alt="" class="icon"><a href="https://www.linkedin.com/in/amitesh-pandey-242731214/">LinkedIn</a></div>
+            </div>
+        </section>
+        <footer>
+            <p><a href="#profile">Introduction</a><a href="#about">About</a><a href="#experience">Skills</a><a href="#projects">Projects</a></p>
+            <p>Copyright © 2023 Amitesh Pandey. All Rights Reserved.</p>
+        </footer>
+        <script src="index.js"></script>
+    </body>
+</html>
