@@ -196,7 +196,6 @@ gap: 1rem;
     margin: 10rem;
 }
 .about-containers{
-    margin-bottom: 2rem;
     margin-top: 2rem;
 }
 .about-details-container{
@@ -230,7 +229,9 @@ gap: 1rem;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
-    margin: 5rem;
+    margin-top: 5rem;
+    margin-left:5rem;
+    margin-right:5rem;
 }
 
 #experience{
